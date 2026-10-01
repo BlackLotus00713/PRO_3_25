@@ -4,25 +4,10 @@
 int main()
 {
 	SetConsoleCP(CP_UTF8);
-	SetConsoleOutputCP(CP_UTF8); // Qt
+	SetConsoleOutputCP(CP_UTF8); // Лол 
 	srand(time(NULL));
 
-	// тип_данных имя_массива[кол-во_ячеек];
 	
-	const int row = 3, col = 4;
-
-	int arr[row][col];
-
-	for (int i = 0; i < row; i++)
-	{
-		for (int j = 0; j < col; j++)
-		{
-			arr[i][j] = rand() % 10;
-			std::cout << arr[i][j] << " ";
-		}
-		std::cout << "\n";
-	}
-
 
 
 	return 0;
@@ -508,3 +493,23 @@ const int size = 10;
 		std::cout << sumP << "\n" << sumO << "\n" << (sumP + sumO) / size;
 */
 
+
+/*
+// тип_данных имя_массива[кол-во_ячеек];
+
+	const int row = 3, col = 4;
+
+	int arr[row][col];
+
+	for (int i = 0; i < row; i++)
+	{
+		for (int j = 0; j < col; j++)
+		{
+			arr[i][j] = rand() % 10;
+			std::cout << arr[i][j] << " ";
+		}
+		std::cout << "\n";
+	}
+
+
+*/
